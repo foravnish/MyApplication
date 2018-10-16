@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="automatworld.in.Web_View">
+    <LinearLayout
+        android:id="@+id/linerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:background="#FFF"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/back"
+            android:id="@+id/back"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:src="@drawable/logo_blue"
+            android:layout_marginLeft="5dp"/>
+
+        <LinearLayout
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:weightSum="2.0">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="20dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:layout_marginRight="40dp"
+                android:src="@drawable/automat"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"/>
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/creating_text"/>
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:src="@drawable/home"
+            android:layout_marginTop="13dp"
+            android:id="@+id/home"/>
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="68dp"
+        android:background="#000"></ImageView>
+    <WebView
+    android:id="@+id/webview"
+        android:layout_below="@+id/linerlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"></WebView>
+</RelativeLayout>

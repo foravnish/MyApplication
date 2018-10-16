@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="automatworld.in">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!--
+ The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".service.Myapplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="automatworld.in.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="automatworld.in.LanguageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.MainMenu"
+            android:parentActivityName="automatworld.in.LanguageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.Allproducts"
+            android:parentActivityName="automatworld.in.MainMenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.Downloads"
+            android:parentActivityName="automatworld.in.MainMenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.New_product"
+            android:parentActivityName="automatworld.in.Allproducts"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.Aboutus"
+            android:parentActivityName="automatworld.in.MainMenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.Contactus"
+            android:parentActivityName="automatworld.in.MainMenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.Videos"
+            android:parentActivityName="automatworld.in.MainMenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.Social"
+            android:parentActivityName="automatworld.in.MainMenu"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="automatworld.in.MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name="automatworld.in.Product2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.Hindi_mainMenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.Hindi_contactus"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.Hindi_aboutus"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.Hindi_Allproducts"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.Hindi_Videos"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.Hindi_Downloads"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.Product3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.Product4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.Product5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.Product6"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.Product7"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.Product8"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.Product9"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.Product10"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.Hsocial"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.HNew_product"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.HProduct2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.HProduct3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.HProduct4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.HProduct5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.HProduct6"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.HProduct7"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.HProduct8"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.HProduct9"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="automatworld.in.HProduct10"
+            android:screenOrientation="portrait" />
+        <activity android:name="automatworld.in.Web_View" android:screenOrientation="portrait"/>
+        <activity android:name="automatworld.in.HWeb_view" android:screenOrientation="portrait"></activity>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/app_id"/>
+    </application>
+
+</manifest>

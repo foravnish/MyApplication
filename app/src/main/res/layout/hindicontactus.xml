@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:background="#FFF"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/back"
+            android:id="@+id/back" />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:src="@drawable/logo_blue"
+            android:layout_marginLeft="5dp"/>
+
+        <LinearLayout
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:weightSum="2.0">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="20dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:layout_marginRight="40dp"
+                android:src="@drawable/automat"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"/>
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/creating_text"/>
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:src="@drawable/home"
+
+            android:layout_marginTop="13dp"
+            android:id="@+id/home"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="हमसे संपर्क करें"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="8pt"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line"
+        android:layout_marginTop="5dp">
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFF">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ऑटोमैट इंडस्ट्रीज प्रा. लि."
+                    android:textStyle="bold"
+                    android:textSize="8pt"
+                    android:padding="10dp"></TextView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="रजिस्टर्ड ऑफिस"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="7pt"></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="18-19, दिलशाद गार्डन, जी. टी. रोड,
+नई दिल्ली-110095 (भारत)
+ई पी बी ए एक्स लाइन:- 011-4309 9800-02
+फैक्स:- +91-11- 4309 9807
+ई-मेल आईडी - marketing@automatworld.com"
+                   />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="जयपुर शाखा"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="7pt"></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="ऑटोमैट इंडस्ट्रीज प्रा. लि.
+119, पहली मंज़िल, नवजीवन काम्प्लेक्स,
+स्टेशन रोड, जयपुर (राजस्थान)-302006
+मोबाइल:- + 91 9660086487"
+                    android:padding="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="इंदौर शाखा"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="7pt"></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="ऑटोमैट इंडस्ट्रीज प्रा. लि.
+एम एस बी-106, पहली मंज़िल,
+न्यू सिया गंज, इंदौर (मध्य प्रदेश)- 452007
+मोबाइल:- +91-9009662004"
+                    android:padding="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="पुणे शाखा"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="7pt"></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="कार्यालय न.-11, डी-विंग, 6th मंजिल,
+के. के. बाजार, धन्कावाङी,
+पुणे-411046
+मोबाइल:- +91-8390694428"
+                    android:padding="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="हैदराबाद शाखा"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="7pt"></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="ऑटोमैट इरिगेशन प्रा. लि.
+प्लॉट नं 9/5/बी, रोड नं-5, IALA,
+आई. डी. ए. नाचाराम, हैदराबाद,
+रंगारेड्डी, तेलंगाना-500076
+मोबाइल:- 7036092000"
+                    android:padding="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="पटियाला शाखा"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="7pt"></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="ऑटोमैट इंडस्ट्रीज प्रा. लि.
+एस -14, डी. एल. एफ. कालोनी, त्रिपुरी बाजार के पास,
+सरहिंद रोड, पटियाला-147001 (पंजाब)
+फोन और फैक्स:- 0175-5002736
+ई मेल:- mspatiala@yahoo.com"
+                    android:padding="10dp"/>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:text="Send Enquiry:"
+                android:id="@+id/sendenquiry"
+                android:textSize="9pt"
+                android:textColor="#FFF"
+                android:layout_gravity="center"
+                android:background="@drawable/sendenquiry_button"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

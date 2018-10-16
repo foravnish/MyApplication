@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_prod">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:background="#FFF"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/back"
+            android:id="@+id/back" />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:src="@drawable/logo_blue"
+            android:layout_marginLeft="5dp"/>
+
+        <LinearLayout
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:weightSum="2.0">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="20dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:layout_marginRight="40dp"
+                android:src="@drawable/automat"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"/>
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/creating_text"/>
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:src="@drawable/home"
+
+            android:layout_marginTop="13dp"
+            android:id="@+id/home"/>
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/pro_img"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Categories"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="8pt"
+        />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line"
+        android:layout_marginTop="5dp">
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEW PRODUCTS / JUST LAUNCHED"
+        android:gravity="left|center"
+        android:padding="10dp"
+        android:textSize="12dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/btn"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IMPACT SPRINKLERS"
+        android:gravity="left|center"
+        android:padding="10dp"
+        android:textSize="12dp"
+        android:background="@drawable/btn"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/bt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MICRO SPRINKLERS"
+        android:gravity="left|center"
+        android:padding="10dp"
+        android:textSize="12dp"
+        android:background="@drawable/btn"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/bt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PRIMARY AND SECONDARY FILTERATION"
+        android:gravity="left|center"
+        android:textSize="12dp"
+        android:padding="10dp"
+        android:background="@drawable/btn"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/bt5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FERTIGATION"
+        android:gravity="left|center"
+        android:padding="10dp"
+        android:background="@drawable/btn"
+        android:layout_marginRight="10dp"
+        android:textSize="12dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/bt6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BALL VALVE"
+        android:gravity="left|center"
+        android:textSize="12dp"
+        android:padding="10dp"
+        android:background="@drawable/btn"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/bt7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HEAD UNIT AND WELL HEAD"
+        android:gravity="left|center"
+        android:padding="10dp"
+        android:textSize="12dp"
+        android:background="@drawable/btn"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/bt8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:text="LAND AND TURF IRRIGATION"
+        android:gravity="left|center"
+        android:padding="10dp"
+        android:background="@drawable/btn"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/bt9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IRRIGATION ACCESSORIES"
+        android:gravity="left|center"
+        android:padding="10dp"
+        android:background="@drawable/btn"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="12dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/bt10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OTHER PRODUCTS"
+        android:gravity="left|center"
+        android:padding="10dp"
+        android:background="@drawable/btn"
+        android:textSize="12dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+    </LinearLayout>
+    </ScrollView>
+
+    </LinearLayout>

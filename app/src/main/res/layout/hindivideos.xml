@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_prod">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:background="#FFF"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/back"
+            android:id="@+id/back" />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:src="@drawable/logo_blue"
+            android:layout_marginLeft="5dp"/>
+
+        <LinearLayout
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:weightSum="2.0">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="20dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:layout_marginRight="40dp"
+                android:src="@drawable/automat"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"/>
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/creating_text"/>
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:src="@drawable/home"
+
+            android:layout_marginTop="13dp"
+            android:id="@+id/home"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/video_icon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="वीडियो"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="8pt"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line"
+        android:layout_marginTop="5dp">
+
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="3"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <RelativeLayout
+                        android:layout_width="20dp"
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        >
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="130dp"
+                            android:scaleType="fitXY"
+                            android:id="@+id/img7"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/video_seven"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginTop="30dp"
+                            android:gravity="center"
+                            android:textSize="5pt"
+                            android:textColor="#FFF"
+                            android:layout_alignParentBottom="true"
+                            android:text="ऑटोमैट कॉर्पोरेट वीडियो 2016"/>
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+
+                        >
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="130dp"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="10dp"
+                            android:id="@+id/img6"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/v6"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="5pt"
+                            android:textColor="#FFF"
+                            android:layout_marginTop="40dp"
+                            android:layout_marginBottom="15dp"
+                            android:layout_alignParentBottom="true"
+                            android:text="हेड यूनिट"/>
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <RelativeLayout
+                        android:layout_width="20dp"
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        >
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="130dp"
+                            android:scaleType="fitXY"
+                            android:id="@+id/img1"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/v1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="30dp"
+                            android:gravity="center"
+                            android:textSize="5pt"
+                            android:textColor="#FFF"
+                            android:layout_alignParentBottom="true"
+                            android:text="ऑटोमैट फ्लैंज "/>
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+
+                        >
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="130dp"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/img2"
+                            android:src="@drawable/v2"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="5pt"
+                            android:textColor="#FFF"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_alignParentBottom="true"
+                            android:text="प्रेशर रिलीफ वाल्व-लो फ्लो"/>
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <RelativeLayout
+                        android:layout_width="20dp"
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        >
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="130dp"
+                            android:scaleType="fitXY"
+                            android:id="@+id/img3"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/v3"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginTop="30dp"
+                            android:gravity="center"
+                            android:textSize="5pt"
+                            android:textColor="#FFF"
+                            android:layout_alignParentBottom="true"
+                            android:text="वेंचुरी साथ रोटामीटर"/>
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+
+                        >
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="130dp"
+                            android:scaleType="fitXY"
+
+                            android:layout_marginRight="10dp"
+                            android:id="@+id/img4"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/v4"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#FFF"
+                            android:gravity="center"
+                            android:textSize="5pt"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_alignParentBottom="true"
+                            android:text="सेमी आटोमेटिक स्क्रीन फिल्टर"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <RelativeLayout
+                        android:layout_width="20dp"
+                        android:layout_height="190dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        >
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="130dp"
+                            android:scaleType="fitXY"
+                            android:id="@+id/img1_1"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/v8"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginTop="40dp"
+                            android:gravity="center"
+                            android:textSize="5pt"
+                            android:textColor="#FFF"
+                            android:layout_alignParentBottom="true"
+                            android:text="आटोमेटिक स्प्रिंकलर सिस्टम फ़ॉर हॉकी सिंथेटिक टर्फ ग्राउंड"/>
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="130dp"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="10dp"
+                            android:id="@+id/img1_2"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/v9"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="5pt"
+                            android:textColor="#FFF"
+                            android:layout_marginTop="40dp"
+                            android:layout_marginBottom="15dp"
+                            android:layout_alignParentBottom="true"
+                            android:text="मेटल प्रोडक्ट्स मैन्युफैक्चरिंग यूनिट दिल्ली"/>
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <RelativeLayout
+                        android:layout_width="20dp"
+                        android:layout_height="190dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        >
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="130dp"
+                            android:scaleType="fitXY"
+                            android:id="@+id/img1_3"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/vten"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginTop="40dp"
+                            android:gravity="center"
+                            android:textSize="5pt"
+                            android:textColor="#FFF"
+                            android:layout_alignParentBottom="true"
+                            android:text="प्रोडक्ट शोकेस ऑटोमेट"/>
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="130dp"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="10dp"
+                            android:id="@+id/img1_4"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/vele"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="5pt"
+                            android:textColor="#FFF"
+                            android:layout_marginTop="40dp"
+                            android:layout_marginBottom="15dp"
+                            android:layout_alignParentBottom="true"
+                            android:text="मिनी स्प्रिंकलर"/>
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <RelativeLayout
+                        android:layout_width="20dp"
+                        android:layout_height="190dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        >
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="130dp"
+                            android:scaleType="fitXY"
+                            android:id="@+id/img1_5"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/vtwl"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginTop="40dp"
+                            android:gravity="center"
+                            android:textSize="5pt"
+                            android:textColor="#FFF"
+                            android:layout_alignParentBottom="true"
+                            android:text="माइक्रो स्प्रिंकलर"/>
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="130dp"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="10dp"
+                            android:id="@+id/img1_6"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/vthirteen"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="5pt"
+                            android:textColor="#FFF"
+                            android:layout_marginTop="40dp"
+                            android:layout_marginBottom="15dp"
+                            android:layout_alignParentBottom="true"
+                            android:text="बटरफ्लाई माइक्रो स्प्रिंकलर"/>
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <RelativeLayout
+                        android:layout_width="40dp"
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="140dp"
+                            android:scaleType="fitXY"
+                            android:id="@+id/img5"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/v5"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="5pt"
+                            android:textColor="#FFF"
+                            android:layout_marginTop="30dp"
+                            android:layout_alignParentBottom="true"
+                            android:text="ऑटोमैट इरीगेशन(यूनिट-1),हरिद्वार"/>
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="20dp"
+                        android:layout_height="180dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp">
+
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+       </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
